@@ -1,0 +1,33 @@
+@media screen and (max-width: 978px){
+    .snoska{
+        padding: 19px;
+        background-color: white
+    }
+    
+    .snoska_container_info59{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .snoska5{
+        display: block;
+        width: 555px;
+        height: 350px;
+        margin: 29px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .snoska595{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+    .snoska5955{
+        font-size: 15px;
+        opacity: 0.8;
+    }
+}

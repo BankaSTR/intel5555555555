@@ -1,0 +1,20 @@
+.proc1{
+	margin: 0;
+	padding: 0;
+}
+
+.proc55{
+	padding: 50px 10px;
+	background-image: url(../img/custom.jpg);
+}
+
+.proc555{
+	padding: 50px 10px;
+	background-image: url(../img/apout.png);
+}
+
+.proc5{
+	color: white;
+	display: flex;
+	justify-content: center;
+}

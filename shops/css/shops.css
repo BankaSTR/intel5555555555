@@ -1,0 +1,47 @@
+.shops{
+    padding: 29px;
+    background-color: white;
+}
+
+.shops_container_pro15{
+    display: block;
+}
+
+.shops_card{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+
+.available{
+    color: green;
+}
+
+.available_close{
+    color: gray;
+}
+
+.work_time{
+    font-size: 15px;
+}
+
+.maps1, .maps15, .maps155, .maps55, .maps159 {
+    display: none;
+    padding: 5px;
+}
+
+#loginButton{
+    background-color: none;
+    color: rgb(19, 19, 19);
+    border: none;
+    transition: all 0.5s;
+    font-size: 18px;
+}
+
+#loginButton:hover{
+    color: white;
+    background-color: rgb(90, 90, 90);
+    border: none;
+}

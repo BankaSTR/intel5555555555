@@ -1,0 +1,18 @@
+@media screen and (max-width: 978px){
+
+
+
+    .integration_card {
+        display: block;
+        height: 500px;
+        margin: 0px;
+
+        width: 100%;
+    }
+
+    .image5{
+        width: 100%;
+    }
+
+
+}

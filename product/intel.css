@@ -1,0 +1,112 @@
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px;
+    position: absolute;
+    top: 20%;
+    padding: 0px;
+}
+
+.imga5{
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 239px;
+    height: 350px;
+    border-radius: 10px;
+    background: linear-gradient(to top right, #020086 0%, #ff0000 100%);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 0 18px rgba(3, 39, 158, 0.3);
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+    margin: 51px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.card::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(161, 161, 161);
+    transform: skewY(345deg);
+    position: absolute;
+    top: -50%;
+    transition: 0.5s;
+}
+
+.card:hover::before{
+    transform: skewY(390deg);
+    top: -65%
+}
+
+
+.card .photo {
+    width: 150px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    transform: translateZ(30px);
+    transition: 0.5s;
+}
+
+.card:hover .photo{
+    width: 75%;
+}
+
+.card .name {
+    font-weight: 600;
+    font-size: 32px;
+    position: relative;
+}
+
+.card .text {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 33px;
+    background: linear-gradient(to top right, #000000 0%, #8b0101 100%);
+    transform: translateZ(30px);
+}
+
+.card_price{
+    font-size: 18px;
+    position: relative;
+}
+
+.card .button:hover{
+    background: linear-gradient(to top right, #c00404 0%, #020202 100%);
+    transition: 0.5s;
+}
+
+.cart-content_btn{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: gray;
+    font-weight: 600;
+    border-radius: 33px;
+    transform: translateZ(30px);
+}

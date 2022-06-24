@@ -1,0 +1,96 @@
+.onas1{
+	display: flex;
+	margin-top: 50px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.onas_1{
+	display: block;
+	width: 100%;
+	padding: 50px;
+}
+
+
+.about{
+	height: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+.subtitle_about{
+	font-size: 18px;
+	height: 100px;
+}
+
+.about1{
+	display: flex;
+	position: relative;
+	height: 215px;
+	width: 790px;
+	align-items: center;
+}
+
+.about5{
+	display: flex;
+	position: relative;
+	height: 59px;
+	margin-top: 0px;
+}
+
+.about5, p{
+	font-size: 18px;
+}
+
+.about51{
+	display: flex;
+	position: relative;
+	height: 294px;
+	width: 680px;
+	margin-left: 805px;
+	align-items: center;
+}
+
+
+.barbe{
+	display: flex;
+	margin: 0px;
+	width: 250px;
+	height: 215px;
+	align-items: center;
+	justify-content: center;
+}
+
+.barbe5{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: absolute;
+	margin: 0px;
+	width: 500px;
+	height: 337px;
+	left: 438px;
+}
+
+.imgaa{
+	display: flex;
+	position: relative;
+	/* width: 119px; */
+	width: 100%;
+	/* height: 185px; */
+	height: 105px;
+	border-radius: 15px;
+	margin-left: 5px;
+	object-fit: contain;
+	justify-content: center;
+}
+
+.imgaa5{
+	display: flex;
+	position: relative;
+	width: 305px;
+	height: 150px;
+	border-radius: 15px;
+	margin-left: 5px;
+	object-fit: contain;
+}

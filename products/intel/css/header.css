@@ -1,0 +1,83 @@
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 44px auto;
+	max-width: 80%;
+	height: 100%;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+
+.logo1{
+	width: 121px;
+	height: 73px;
+	transition: 1s;
+}
+
+.logo1:hover{
+	transform: scale(1.2);
+}
+
+header .logo{
+	margin-top: -9px;
+	max-width: 250px;
+	text-decoration: none;
+	font-size: 28px;
+	color: rgb(109, 109, 109);
+	font-weight: bold;
+	transition: 0.5s ease;
+}
+
+header .logo:hover{
+	max-width: 250px;
+	text-decoration: none;
+	font-size: 30px;
+	color: rgb(66, 70, 116);
+	font-weight: bold;
+}
+
+header .menu{
+	list-style: none;
+	width: 1850px;
+}
+
+header .menu li{
+	display: inline-block;
+	margin-left: 159px;
+}
+
+header .menu li a{
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: rgb(109, 109, 109);
+	font-weight: bold;
+	transition: .3s ease-in-out;
+}
+
+/* header .menu li a:hover{
+	display: block;
+	text-decoration: none;
+	font-size: 19px;
+	color: rgb(66, 70, 116);
+	font-weight: bold;
+	padding-bottom: 0px;
+	border-bottom: 1px solid rgb(224, 0, 0);
+	width: 0px;
+} */
+
+header .menu li a:after {
+    background-color: #ff6000;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+header .menu li a:hover:after,
+header .menu li a:focus:after {
+    width: 100%;
+}

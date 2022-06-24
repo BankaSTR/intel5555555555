@@ -1,0 +1,112 @@
+﻿@media screen and (max-width: 978px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 44px auto;
+        max-width: 80%;
+        height: 100%;
+        text-decoration: none;
+        padding-bottom: 5px;
+        border-bottom: 2px solid rgb(224, 0, 0);
+    }
+
+    .product-container{
+        padding: 0;
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+
+    .product-category {
+        padding: 0 10vw;
+        display: flex;
+        scroll-behavior: smooth;
+        width: 100px;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 40px;
+        text-transform: capitalize;
+    }
+
+    .pre-btn, .nxt-btn{
+        display: none;
+    }
+
+    .about{
+        padding-top: 30px;
+        height: 188px;
+    }
+
+    .onas_1{
+        padding: 0px;
+    }
+
+    .subtitle_about{
+        height: 100%;
+        font-size: 15px;
+    }
+
+    .barbe{
+        margin: 15px;
+        width: 485px;
+    }
+
+    .imgaa{
+        width: 100%;
+    }
+
+    .AboutContainer{
+        grid-row-gap: 20px;
+    }
+
+    .Abtitle{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .Absubtitle{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .description{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    /* .about{
+        text-align: center;
+    } */
+
+    .Ablinks{
+        justify-content: center;
+    }
+
+    .AboutImg{
+        max-width: 350px;
+    }
+
+    /* header{
+        display: block;
+    } */
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    
+}
+
+a{
+	text-decoration: none;
+    transition: all 0.5s;
+}
+
+a:hover{
+	color: rgb(49, 49, 201) ;
+}

@@ -1,0 +1,42 @@
+.snoska{
+	padding: 19px;
+	background-color: white
+}
+
+.snoska_container_info59{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0px;
+}
+
+.snoska5{
+	display: block;
+	width: 555px;
+	height: 280px;
+	margin: 29px;
+}
+
+.snoska595{
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.snoska5955{
+	font-size: 15px;
+	opacity: 0.8;
+}
+
+.snoskaleft{
+	line-height: 29px;
+}
+
+.snoskaleft a{
+	text-decoration: none;
+	color: rgb(55, 110, 175);
+}
+
+.snoskaleft li{
+	text-decoration:dashed;
+	color: rgb(55, 110, 175);
+}

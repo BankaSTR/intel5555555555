@@ -1,0 +1,52 @@
+
+.up_info{
+	background-image: url(../img/afonnn.png);
+	display: flex;
+	height: 450px;
+	justify-content: flex-end;
+}
+
+.up_h1{
+	margin: 15px;
+	margin-left: 19px;
+	font-size: 30px;
+	font-weight: 500;
+	top: 0;
+}
+
+.up_card{
+	display: block;
+	background-color: white;
+	height: 190px;
+	width: 559px;
+	margin: 29px;
+	margin-top: 45px;
+	margin-right: 50px;
+	padding: 15px;
+}
+
+.image5{
+	width: 338px;
+	height: 190px;
+}
+
+.image55{
+	width: 115px;
+	height: 80px;
+}
+
+.imgga{
+	display: flex;
+}
+
+@media screen and (max-width: 978px){
+	.up_card{
+		display: block;
+		background-color: white;
+		height: 190px;
+		width: 559px;
+		margin: 29px;
+		margin-top: 45px;
+		padding: 15px;
+	}
+}

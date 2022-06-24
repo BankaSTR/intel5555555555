@@ -1,0 +1,58 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+
+.content{
+	max-width: 1170px;
+	margin: auto;
+}
+
+h1{
+	display: block;
+	font-size: 18px;
+	align-items: flex-start;
+}
+
+#ba{
+	scroll-behavior: smooth;
+}
+
+/*  */
+
+.alright5{
+	padding: 19px;
+	background-color: rgb(205, 205, 205);
+}
+
+.alright595{
+	display: flex;
+	justify-content: center;
+}
+
+.image5{
+	display: flex;
+	width: 338px;
+	height: 190px;
+}
+
+.ascr5{
+	display: block;
+	width: 345px;
+	height: 500px;
+	margin: 29px;
+}
+
+.aaaaa5{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0px;
+}

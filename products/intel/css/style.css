@@ -1,0 +1,18 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+
+.content{
+	max-width: 1170px;
+	margin: auto;
+}
+
+header{

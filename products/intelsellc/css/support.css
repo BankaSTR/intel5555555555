@@ -1,0 +1,65 @@
+.support_container_product{
+	display: flex;
+	background-image: url(../img/mrighta.png);
+	padding: 0px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0px;
+	align-items: center;
+}
+
+.support{
+	margin: 0px;
+	padding: 0px;
+}
+
+.support_card{
+	display: block;
+	width: 389px;
+	margin: 29px;
+	height: 323px;
+}
+
+.product-brand55{
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	color: white;
+}
+
+.product-info{
+	width: 100%;
+	height: 100px;
+	padding-top: 10px;
+}
+
+.product-short-description55{
+	font-size: 15px;
+	width: 100%;
+	height: 180px;
+	line-height: 20px;
+	font-weight: 555;
+	overflow: hidden;
+	opacity: 0.8;
+	margin: 5px 0;
+	color: white;
+}
+
+
+.card-btn5515{
+	position: relative;
+	font-size: 15px;
+	font-weight: bold;
+	bottom: 50px;
+	border-color: white;
+	color: white;
+	height: 50%;
+	padding: 10px;
+	width: 59%;
+	text-transform: capitalize;
+	outline: none;
+	background: none;
+	transition: 0.5s;
+	cursor: pointer;
+	text-transform: uppercase;
+}
